@@ -1,9 +1,10 @@
 import React from "react";
 
 function HomePage(props) {
+  let name = "Steph";
   return (
     <>
-      <h1>Hello, Welcome to my blog!</h1>
+      <h1>Hello, Welcome to my blog {name}!</h1>
       <p>
         It wasn't that he hated her. It was simply that he didn't like her much.
         It was difficult for him to explain this to her, and even more difficult
